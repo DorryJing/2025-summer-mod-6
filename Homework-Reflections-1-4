@@ -11,9 +11,19 @@ Invent your own type of matching similar to 1 and 2 (or look one up on the inter
 Homework reflection 2
 
 1. Invent an example situation that would use fixed effects.
+Does global warming affect how much milk cows produce?
+We can choose milk production records for the same cows as panel data, tracked over 5 years 
+The gentics, breed, baseline milk production ability are not change.
 
 2. Write a Python program that performs a bootstrap simulation to find the variance in the mean of the Pareto distribution when different samples are taken.  Explain what you had to do for this.  As you make the full sample size bigger (for the same distribution), what happens to the variance of the mean of the samples?  Does it stay about the same, get smaller, or get bigger?
 
+The varience of the mean of samples become small.
+ 1. I creates a random sample of numbers from a Pareto distribution. 
+ 2. I used bootstrap to resample 1000 times.
+ 3. Caculate the mean of each bootstrap sample
+ 4. Caculate the variance of the mean of each bootstrap sample
+ 5. Compare the variance changed
+ 
 Homework reflection 3
 
 1. In the event study in Coding Quiz 3, how would we go about testing for a change in the second derivative as well?
